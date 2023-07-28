@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    p {
+      text-align: justify;
+      margin-bottom: 15px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #555;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #45a049;
+    }
+
+    .contact-section {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .contact-link {
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    .contact-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+ <div class="container"> 
+    <h1>Welcome to Our Website</h1>     
+<p>
+      Hello guys welcome to our site.we will provide what you want to know,
+      but firstly login to our site to know who you are and after that we will be 
+      able to send you the information regarding you want to know...    </p>
+    <p>
+      Benefits of joining our website:
+    </p>
+    <ul>
+      <li>Access to exclusive content</li>
+      <li>Receive regular updates and offers</li>
+      <li>Participate in community discussions</li>
+      <li>And much more!</li>
+    </ul>
+    <form action="/login" method="post">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit" class="btn">Login</button>
+    </form>
+    <div class="contact-section">
+      <p>Need help? Contact us:</p>
+      <a class="contact-link" href="mailto:support@example.com">support@example.com</a>
+    </div>
+  </div>
+</body>
+</html>
